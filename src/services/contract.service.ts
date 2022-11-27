@@ -10,7 +10,7 @@ Tezos.setProvider({
 });
 
 export const reward = async (address: string) => {
-  const amount = 200000;//2000000;
+  const amount = 2000000;//200000;//2000000;
   const contract = await Tezos.contract.at(Contracts.Escrow);
   const op = await contract.methods.withdraw(amount, address).send();
   const tx = await op.confirmation(1);
