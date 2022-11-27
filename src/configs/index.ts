@@ -1,13 +1,11 @@
 export const Network = {
   RPC: 'https://mainnet.tezos.marigold.dev',
   AdminPrivateKey:
-    'edskRnbq3Sy3k2hRwL8BkJFnBMgBkxmr7j7vQbTqbydATpmYbn9MdPDpSimn7uWaaLddq5vsskqNibnqWKQ7CVh1Er5j3CKrmW',
+    'edskRsDgNyvAcxaGnDxqvpnZM6VcRSrrKP5LhDFBr9Su3XD88NMvpENxyYwiJMHVffN7NT6BhkUi5dctDZvb1FNSDR9bqXKfyp',
 };
 
 export const API = {
   TZKTURL: 'https://api.tzstats.com',
-  LedgerID: 108093,
-  TokenMetadataID: 108097,
 };
 
 export const Contracts = {
