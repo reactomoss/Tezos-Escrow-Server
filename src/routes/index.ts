@@ -3,6 +3,6 @@ import { ApiRoutes } from './v1';
 
 const router: Router = Router();
 
-router.use('/escrow', ApiRoutes);
+router.use('/api/escrow', ApiRoutes);
 
 export const MainRouter: Router = router;
