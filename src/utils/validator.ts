@@ -16,10 +16,10 @@ export function validate(req: Request, res: Response, next: NextFunction) {
 export function createHandler(callback: (req: Request) => object) {
   return async (req: Request, res: Response) => {
     try {
-      const data = await callback(req);
+      const data = await callback(req)
       return res.json({ data: data })
     } catch (error: any) {
-      console.error(error);
+      console.error(error)
       return res.status(501).json({
         error: true,
         message: error?.message,

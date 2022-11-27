@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { createHandler as handler } from 'utils/validator';
-import * as contractService from 'services/contract.service';
+import { createHandler as handler } from '../utils/validator';
+import * as contractService from '../services/contract.service';
 
 const router: Router = Router();
 

@@ -1,6 +1,6 @@
 import { TezosToolkit } from '@taquito/taquito';
 import { InMemorySigner } from '@taquito/signer';
-import { Network, Contracts } from 'configs';
+import { Network, Contracts } from '../configs';
 
 export interface MintDto {}
 
